@@ -9,7 +9,7 @@ import inspect
 from sqlalchemy.orm.mapper import Mapper
 from sqlalchemy.orm.query import Query
 from sqlalchemy.orm.session import Session
-from sqlalchemy.ext.declarative.api import DeclarativeMeta
+from sqlalchemy.orm import DeclarativeMeta
 
 __all__ = ['ManagedQuery', 'ManagedSession']
 
